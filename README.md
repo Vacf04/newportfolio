@@ -1,8 +1,23 @@
-# React + Vite
+# PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio onde falo um pouco sobre mim, minhas habilidades, mostro projetos que já produzi por conta própria, basicmaente me apresento, além de possuir portais para me contatar, caso queira que eu participe de algum projeto.
 
-Currently, two official plugins are available:
+## FEATURES
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Menu responsivo.
+- Design responsivo.
+- React router.
+- Simples animações.
+
+## TELA
+
+![pic1](https://github.com/Vacf04/newportfolio/assets/89648256/20698dac-b5e8-42f3-8019-1597c26729f3)
+
+![pic2](https://github.com/Vacf04/newportfolio/assets/89648256/d10c53ea-647a-4993-bb34-09c15cc702bb)
+
+
+
+
+
+
+
