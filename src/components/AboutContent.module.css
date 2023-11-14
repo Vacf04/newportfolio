@@ -1,0 +1,103 @@
+.content {
+  color: var(--white-color);
+  min-height: 50vh;
+  max-width: 1200px;
+  padding: 4rem;
+  margin: 0 auto;
+  font-size: 2.50rem;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.skillsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skillsContent h2 {
+  margin-bottom: 10rem;
+}
+
+.skillsContainer {
+  display: flex;
+  font-size: 10rem;
+  gap: 4rem;
+}
+
+.skill {
+  border: 0.3rem solid var(--white-transparent-2);
+  border-radius: 2rem;
+  padding: 2rem 6rem 2rem 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.skill:hover {
+  transform: scale(105%);
+  border-color: var(--white-color);
+}
+
+.imgContainer img {
+  width: 38rem;
+  margin-top: 8rem;
+}
+
+.textContainer h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: justify;
+}
+
+.particles {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.particles img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen
+and (max-device-width : 850px) {
+  .content{
+    font-size: 2rem;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 10rem;
+  }
+
+  .skillsContainer {
+    flex-direction: column;
+  }
+
+  .skillsContent h2 {
+    margin-bottom: 5rem;
+  }
+}
+

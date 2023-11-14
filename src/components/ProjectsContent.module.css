@@ -1,0 +1,140 @@
+.content {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  min-height: 85vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+.particles {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.particles img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  padding-top: 8rem;
+  font-size: 2rem;
+  margin: 0 auto;
+  color: white;
+}
+
+
+.projectsContainer {
+  display: grid;
+  padding: 5rem;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 2rem;
+  border: 0.2rem solid rgba(255, 255, 255, 0.74);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+  width: 40rem;
+}
+
+.project:hover {
+  transform: scale(100.5%);
+  border-color: white;
+}
+
+.project img {
+  width: 250px;
+  height: 150px;
+}
+
+.project span {
+  text-align: justify;
+}
+
+.projectButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.projectButtons a {
+  text-decoration: none;
+}
+
+.projectButtons button {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 0.1rem solid white;
+  color: white;
+  border-radius: .5rem;
+  transition: var(--transition);
+  cursor: pointer;
+  width: 10rem;
+}
+
+
+.projectButtons button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen
+and (max-device-width : 850px) {
+  .projectsContainer {
+    padding: 4rem;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    font-size: 2rem;
+  }
+
+  .header {
+    font-size: 2rem;
+    padding-top: 10rem;
+  }
+}
+
+@media only screen
+and (max-device-width : 450px) {
+  .content {
+    font-size: 1rem;
+  }
+
+  .project {
+    width: 25rem;
+  }
+
+  .header {
+    font-size: 1rem;
+    padding-top: 10rem;
+  }
+}
