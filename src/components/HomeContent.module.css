@@ -60,6 +60,7 @@
 @media (max-width: 850px){ 
   .content {
     flex-direction: column;
+    text-align: center;
     font-size: 2rem;
     padding-top: 10rem;
   }
