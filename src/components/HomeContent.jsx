@@ -25,7 +25,6 @@ export default function HomeContent() {
             <button className={Styles.contactButton}>Entre em Contato</button>
           </Link>
         </div>
-        </div>
         <div className={Styles.imgContainer}>
           <RiCodeSSlashFill className={Styles.code}></RiCodeSSlashFill>
         </div>
